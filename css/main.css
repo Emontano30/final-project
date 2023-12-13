@@ -1,0 +1,299 @@
+/*           Universal styles      */ 
+*,
+*:before,
+*:after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* global styles */
+html {
+    font-size: 62.5%;
+}
+
+
+.navigation ul { 
+    list-style: none;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    min-width: 100vw;
+    display: flex ;
+    padding-right: 8rem;
+    font-family: "essonnes-display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.navigation a { 
+    color: rgb(92,56,19);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.navigation li { 
+    float: left;
+    display: inline;
+}
+
+.navigation ul li a img { 
+    width: 5rem;
+}
+
+h1, h2, h3 { 
+    font-family: "essonnes-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+h1 { 
+    margin: 2rem 0;
+}
+body {
+    background-image: url("../img/blurrybread.png");
+    background-size:100% auto;
+    color: rgb(92,56,19);
+    background-position: center center ;
+    background-repeat: none;
+    text-align: center;
+    height: 100%;
+    font-size: 1.5rem;
+    font-family: "semplicitapro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+li { 
+    list-style: none;
+    color: rgb(92,56,19);
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0.05px;
+    justify-content: right;
+    align-items: center;
+    background-color:white;
+    width: 80% ;
+}
+
+ul {
+    list-style: none;
+    color: rgb(92,56,19);
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0.05px;
+    justify-content: right;
+    align-items: center;
+    background-color:white;
+    width: 80% ;
+}
+
+h2 { 
+    background-color: white;
+    color: rgb(92,56,19);
+    width: 80% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    padding: 35px;
+}
+
+.Menu-link {
+    background-color: white;
+    width: 1310px;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.Menu-link li { 
+    justify-content: center;
+    width: 100%;
+    padding: 21px
+}
+
+.menu { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    
+}
+
+.menu li { 
+    max-width: 30%;
+    padding: 3rem;
+}
+
+.about h1 h2 h3 { 
+    background-color: white;
+    color: color rgb(92,56,19);
+}
+
+.heroimg { 
+    background-image: url("../img/scrolling-bg-bread.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    
+}
+
+.heroimg  { 
+    color: white;
+    font-size: 3rem;
+
+}
+
+.heroimg { 
+    color: white;
+    font-size: 3rem;
+}
+
+.transparent-overlay { 
+    background-color: rgba(0,0,0,.50);
+    height: 100%;
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.herobox-right { 
+    background-color:(215, 140, 179);
+    border-radius: 50%;
+    align-self: flex-end;
+}
+
+.herobox-left { 
+    font-size: 3rem;
+    background-color:(191,95,145);
+    border-radius: 50%;
+    margin-bottom: -5rem; 
+}
+
+hr { 
+    width: 1310px; 
+    color:rgb(92,56,19);
+    border-radius: 5px;
+    align-items: center;
+    margin: -2rem;
+
+}
+
+/*.hours, li, h3, h2 { 
+    background-color: white;
+    max-width: 114rem;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 2rem;
+    color: rgb(92,56,19);
+    padding-right: 9rem;
+    padding-left: 9rem;
+}
+*/
+.hours { 
+    background-color: white;
+    max-width: 114rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    color: rgb(92,56,19);
+    padding-right: 9rem;
+    padding-left: 9rem;
+}
+.address { 
+    background-color: white;
+    color: rgb(92,56,19);
+    /*width: 1310px;*/
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto; 
+}
+
+/*.indexhr { 
+    width: 30vw; 
+    color:(191,95,145);
+    border-radius: 5px;
+    align-items: center;
+    margin: -2rem;
+    border-top: dotted;
+    z-index: 3rem;
+}*/
+
+.aboutinfo h1 p{ 
+    margin: 3rem auto;
+    padding: 0%;
+    display:block; 
+    color: rgb(92,56,19);
+   
+}
+
+.aboutinfo { 
+    background-color: white;
+    max-width: 114rem;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 2rem;
+    color: rgb(92,56,19);
+    padding-right: 9rem;
+    padding-left: 9rem;
+}
+
+.bttn { 
+    color: white !important;
+    background-color:rgb(92,56,19);
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: "essonnes-display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ .bttn:hover { 
+    color: white;
+    background-color:rgb(92,56,19);
+    padding: 10px;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.index h2 { 
+    background-color: white;
+    max-width: 114rem;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 2rem;
+    color: rgb(92,56,19);
+    padding-right: 9rem;
+    padding-left: 9rem;
+    font-size: 2rem;
+
+}
+
+.index { 
+    background-color: white;
+    max-width: 114rem;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 2rem;
+    color: rgb(92,56,19);
+    padding-right: 9rem;
+    padding-left: 9rem;
+    font-size: 2rem;
+
+}
